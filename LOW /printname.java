@@ -1,9 +1,9 @@
 import java.util.Scanner;
 class printname{
   public static void main(String[] args){
-  	scanner sc = new scanner(System.in);
+  	Scanner sc = new Scanner(System.in);
     
-    String username = sc.nextline();
+    String username = sc.nextLine();
     System.out.println("Hello," + ' ' + username + ".");
   }
 }
